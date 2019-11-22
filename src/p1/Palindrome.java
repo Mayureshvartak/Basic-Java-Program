@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
        int r,sum=0,temp;
-       //int c;
+      
         Scanner n=new Scanner(System.in);
         System.out.println("Enter Value: ");
         int a=n.nextInt();
@@ -22,15 +22,14 @@ public class Main {
         while(a>0){
             r=a%10;
             sum=sum*10+r;
-            //c=r*r*r;
-            //sum=sum+c;
             a=a/10;
+            
         }
         a=temp;
         if(a==sum){
-            System.out.println("Armstrong");
+            System.out.println("Palindrome");
         }else{
-            System.out.println("Not Armstrong");
+            System.out.println("Not a Palindrome");
         }
         
       
