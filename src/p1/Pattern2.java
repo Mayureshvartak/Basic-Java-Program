@@ -18,10 +18,10 @@ public class Pattern2 {
  
             System.out.println("Enter the number of rows: ");
             String m=sc.next();
-            //String m="Atos-Syntel";
+            
          for (int i = 0; i <= m.length(); i++) 
          { 
-           //int alphabet = 65; 
+       
              
            for (int j = m.length(); j > i; j--)
                 {
